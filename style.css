@@ -1,0 +1,63 @@
+/* *{
+padding: 0;
+margin: 0;
+}
+.container{
+background-color: hsl(0, 0%, 100%); 
+width: 20rem;
+height:30rem ;
+margin: 2rem;
+ }
+ 
+.box-code img{
+width: 250p;
+}  
+.container-paragraph-1 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+
+}
+.container-paragraph-1 p {
+font-weight: 900;
+}
+body{
+background-color:  hsl(212, 45%, 89%) ;
+}
+.container-paragraph-2{
+color: hsl(220, 15%, 55%);
+}
+     */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 250px;
+    height: 430px;
+    padding:25px; 
+    margin: 10px;
+    background-color:  hsl(0, 0%, 100%);
+border-radius: 1rem;
+
+}
+.code img{
+width: 250px;
+border-radius: 10px;
+
+}
+body{
+background-color: hsl(212, 45%, 89%);
+width: 100%;
+margin-top: 70px;
+}
+.par-2 {
+color:hsl(220, 15%, 55%) ;
+}
+h3, p{
+    text-align: center;
+    margin-top: 1rem;
+}
+.all{
+display: flex;
+justify-content: center;
+}
